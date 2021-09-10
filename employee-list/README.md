@@ -2,7 +2,8 @@ EMPLOYEE DIRECTORY - theCOOP
 
 Built with React
 
-![theCOOP_Employee-List](https://user-images.githubusercontent.com/69644797/132786677-5961e6a3-9122-4517-9f75-758bc0713cca.gif)
+![theCOOP-Employee_List-Demo](https://user-images.githubusercontent.com/69644797/132914008-c5d8f016-75f0-4ab8-9100-a3923ddacd75.gif)
+
 
 
 
