@@ -1,1 +1,15 @@
-EMPLOYEE LIST
+EMPLOYEE DIRECTORY - theCOOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
