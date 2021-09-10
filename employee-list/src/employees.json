@@ -1,42 +1,52 @@
 [
     {
         "id": 1,
-        "fullName": "John Doe"
+        "fullName": "John Doe",
+        "cell": "(832)222-3883"
     },
     {
         "id": 2,
-        "fullName": "Jane Doe"
+        "fullName": "Jane Doe",
+        "cell": "(622)333-4994"
     },
     {
         "id": 3,
-        "fullName": "Nick Slick"
+        "fullName": "Nick Slick",
+        "cell": "(387)444-5005"
     },
     {
         "id": 4,
-        "fullName": "Stephanie Nicole Perez"
+        "fullName": "Stephanie Nicole Perez",
+        "cell": "(995)555-6116"
     },
     {
         "id": 5,
-        "fullName": "Lisa Goodell"
+        "fullName": "Lisa Goodell",
+        "cell": "(512)666-7227"
     },
     {
         "id": 6,
-        "fullName": "Jose Rivera Sanchez"
+        "fullName": "Jose Rivera Sanchez",
+        "cell": "(713)777-8228"
     },
     {
         "id": 7,
-        "fullName": "Adam Reed"
+        "fullName": "Adam Reed",
+        "cell": "(442)888-9339"
     },
     {
         "id": 8,
-        "fullName": "Dylan Cassanova"
+        "fullName": "Dylan Cassanova",
+        "cell": "(288)999-0440"
     },
     {
         "id": 9,
-        "fullName": "Steve Babb"
+        "fullName": "Steve Babb",
+        "cell": "(281)111-1551"
     },
     {
         "id": 10,
-        "fullName": "Brady Gerber"
+        "fullName": "Brady Gerber",
+        "cell": "(652)222-2662"
     }
 ]

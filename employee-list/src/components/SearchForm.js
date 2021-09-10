@@ -28,10 +28,11 @@ function SearchForm(props) {
                     if (val) {
                       return (
                         <div className="employees" key={key}>
-                          <p>{val.fullName}</p>
+                          <p className="name">{val.fullName}</p>
+                          <p className="cell">{val.cell}</p>
                         </div>
                       )
-                    } else if (val.length === 0) {
+                    } else if (!val) {
                       return (
                         <div>
                             <p>No matching results</p>

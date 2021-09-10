@@ -14,10 +14,14 @@
 }
 
 #searchBox {
-    border: 1.5px solid black;
+    border: 2px solid black;
     display: flex;
     width: 30vw;
     margin-bottom: 50px;
+}
+
+#searchBox:hover {
+    border: 2px solid rgb(213, 98, 136)
 }
 
 .employees {
@@ -33,4 +37,8 @@
 .employees p {
     font-size: 1.2em;
     justify-content: center;
+}
+
+.name {
+    padding-right: 15px;
 }
