@@ -8,29 +8,30 @@ function SearchForm(props) {
     
     console.log(searchTerm);
     return (
-        <div className="search-form">
-            <div id="searchText">
-                
-                <input id="searchBox" className="form-control me-2" type="text" placeholder="Search by employee name" aria-label="Search" 
+        <div className="search-form col-sm">
+            <div className="searchText">
+                <input id="searchBox" className="form-control me-2 row" type="text" placeholder="Search by employee name" aria-label="Search" 
                 onChange={e => {setSearchTerm(e.target.value)}} 
                 />
-
+            </div>
+            <div className='employee-list row'>
                 {Employees.filter(val => {       
                     if (searchTerm === "") {
                         console.log(val);
                         return val 
                     } else if (val.fullName.toLowerCase().includes(searchTerm.toLowerCase())) {
                         console.log(val);
+                        console.log(searchTerm);
                         return val
                     }
                 }).map((val, key) => { 
                     if (val) {
                       return (
-                        <div className="employee" key={key}>
+                        <div className="employees" key={key}>
                           <p>{val.fullName}</p>
                         </div>
                       )
-                    } else {
+                    } else if (val.length === 0) {
                       return (
                         <div>
                             <p>No matching results</p>

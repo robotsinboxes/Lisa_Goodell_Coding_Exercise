@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    font-family: 'Urbanist', sans-serif;
+}

@@ -5,8 +5,8 @@ import './Header.css';
 function Title() {
     return (
       <>
-        <div>
-            <img className='logo' src={COOP} height="200px" alt='logo'></img>
+        <div className='logo'>
+            <img src={COOP} height="200px" alt='logo'></img>
         </div>
         <div className='title'>
             <h1>Employee List</h1>

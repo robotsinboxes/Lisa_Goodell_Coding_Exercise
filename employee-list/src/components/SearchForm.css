@@ -1,0 +1,36 @@
+.search-form {
+    display: inline-block;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.searchText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBox {
+    border: 1.5px solid black;
+    display: flex;
+    width: 30vw;
+    margin-bottom: 50px;
+}
+
+.employees {
+    border: 2px solid rgb(213, 98, 136);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    width: 40vw;
+    justify-content: center;
+}
+
+.employees p {
+    font-size: 1.2em;
+    justify-content: center;
+}
